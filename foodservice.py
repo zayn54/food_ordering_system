@@ -184,7 +184,7 @@ def get_user_rating(): # This function prompts the user to rate their food order
 
 def send_email(name, age, location, order, address, cost, identifier, domain): # This function sends an email to the user with their order details 
     # Replace with your own email server credential
-    sender_email = "gundumaxwell@gmail.com"
+    sender_email = "your email address"
     receiver_email = f"{name}@{domain}"
     password = "ak47ak47"
 
